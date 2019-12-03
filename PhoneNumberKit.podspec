@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PhoneNumberKit"
-  s.version          = "3.0.0"
+  s.version          = "3.1.0"
   s.summary          = "Swift framework for working with phone numbers"
 
 # This description is used to generate tags and improve search results.
@@ -53,7 +53,6 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |ui|
     ui.dependency 'PhoneNumberKit/PhoneNumberKitCore'
     ui.ios.deployment_target = '8.0'
-    ui.tvos.deployment_target = '9.0'
     ui.source_files = 'PhoneNumberKit/UI/'
   end
 

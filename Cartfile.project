@@ -1,0 +1,11 @@
+PhoneNumberKit:
+  project: PhoneNumberKit.xcodeproj
+  sdks:
+  - iphoneos
+  - iphonesimulator
+
+PhoneNumberKit-tvOS:
+  project: PhoneNumberKit.xcodeproj
+  sdks:
+  - appletvos
+  - appletvsimulator

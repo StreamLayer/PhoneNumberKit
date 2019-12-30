@@ -13,7 +13,7 @@
     }],
     ["@semantic-release/github", {
       "assets": [
-        { "path": "SLR_KeyboardObserver.framework.zip" },
+        { "path": "SLR_PhoneNumberKit.framework.zip" },
         { "path": "report.json" }
       ]
     }]

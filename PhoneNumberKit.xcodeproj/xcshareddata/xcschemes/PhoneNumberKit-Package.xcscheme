@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
+               BlueprintIdentifier = "PhoneNumberKit::PhoneNumberKit"
                BuildableName = "PhoneNumberKit.framework"
-               BlueprintName = "PhoneNumberKit-tvOS"
+               BlueprintName = "PhoneNumberKit"
                ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PhoneNumberKit::PhoneNumberKitTests"
+               BuildableName = "PhoneNumberKitTests.xctest"
+               BlueprintName = "PhoneNumberKitTests"
+               ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -40,15 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
-            BuildableName = "PhoneNumberKit.framework"
-            BlueprintName = "PhoneNumberKit-tvOS"
-            ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
-            BuildableName = "PhoneNumberKit.framework"
-            BlueprintName = "PhoneNumberKit-tvOS"
-            ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

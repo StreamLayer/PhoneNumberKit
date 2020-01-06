@@ -40,3 +40,4 @@ PhoneNumberKit/.DS_Store
 *.zip
 *.lock
 node_modules/
+.build
